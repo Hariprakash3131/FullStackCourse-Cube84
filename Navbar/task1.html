@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <style>
+        
         *{
             margin: 0;
+              font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+
+ 
+            
         }
          .navbar{
             width: 100%;
@@ -62,6 +74,32 @@
          .btn:hover{
             background-color: #765fe9;
          }
+         .hero{
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .hero-div{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .text-p{
+            color: #5f42f0;
+            background-color: #efecfd;
+            width:180px;
+            padding: 4px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            margin-top:-90px;
+         }
+         .text-h1{
+            display: flex;
+         }
     </style>
 </head>
 <body>
@@ -77,5 +115,13 @@
         </div>
         <button class="btn">Get Stared</button>
     </nav>
+    <section class="hero">
+        <div class="hero-div">
+   <p class="text-p">v2.0 is now available</p>
+   </div>
+        <h1 class="text-h1">Build faster with
+intelligent tools</h1>
+
+    </section>
 </body>
 </html>
