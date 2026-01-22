@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+.navbar{
+    background-color: aqua;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
