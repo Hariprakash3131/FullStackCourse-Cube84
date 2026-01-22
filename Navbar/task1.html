@@ -74,32 +74,35 @@
          .btn:hover{
             background-color: #765fe9;
          }
-         .hero{
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-         }
-         .hero-div{
-             display: flex;
-            justify-content: center;
-            align-items: center;
-         }
-         .text-p{
-            color: #5f42f0;
-            background-color: #efecfd;
-            width:180px;
-            padding: 4px;
-            height: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 16px;
-            margin-top:-90px;
-         }
-         .text-h1{
-            display: flex;
-         }
+        .hero {
+  height: 300px;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column; /* stack text */
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.text-p {
+  color: #5f42f0;
+  background-color: #efecfd;
+  width: 180px;
+  padding: 6px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.text-h1 {
+  font-size: 36px;
+  color: #11192b;
+}
+
     </style>
 </head>
 <body>
@@ -116,12 +119,14 @@
         <button class="btn">Get Stared</button>
     </nav>
     <section class="hero">
-        <div class="hero-div">
-   <p class="text-p">v2.0 is now available</p>
-   </div>
-        <h1 class="text-h1">Build faster with
-intelligent tools</h1>
+  <div class="hero-div">
+    <p class="text-p">v2.0 is now available</p>
+    <h1 class="text-h1">
+      Build faster with <br>
+      intelligent tools
+    </h1>
+  </div>
+</section>
 
-    </section>
 </body>
 </html>
