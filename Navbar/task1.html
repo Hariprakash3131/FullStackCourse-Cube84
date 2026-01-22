@@ -11,45 +11,71 @@
          .navbar{
             width: 100%;
             height: 70px;
-            background-color: rgb(134, 59, 59);
+            background-color: rgb(255, 255, 255);
             align-items: center;
             display: flex;
+            justify-content: flex-end;
             
          }
          .navbar-ul{
            display:flex;
            text-decoration: none;
-           justify-content: center;
-           align-items: center;
            list-style-type: none;
          }
-         .navbar-li{
+         .navbar-li a{
            padding: 20px;
-           padding-left: 130px;
-           color: aliceblue;
+           padding-left: 60px;
+           color:#68717d;
            cursor: pointer;
-           justify-content: flex-end;
+           text-decoration: none;
+           
          }
-         .navbar-li:hover{
+         .navbar-li a:hover{
             color: black;
          }
          .logo{
             align-items: center;
             display: flex;
+            margin-right: auto;
+            font-size: 23px;
+            font-weight: 500;
+            color: #11192b;
          
+         }
+         .logo-img{
+            width: 60px;
+            height: 40px;
+         }
+         .btn{
+            color: #ffffff;
+            background-color: #5f42f0;
+            width: auto;
+            height:30px;
+            border: none;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 25px;
+         }
+         .btn:hover{
+            background-color: #765fe9;
          }
     </style>
 </head>
 <body>
     <nav class="navbar">
+        <a href=""><img src="./gmdh-streamline.png" class="logo-img" alt=""></a>
         <span class="logo">Logo</span>
         <div>
         <ul class="navbar-ul">
-            <li class="navbar-li">Home</li>
-            <li class="navbar-li">About</li>
-            <li class="navbar-li">Contact</li>
+            <li class="navbar-li"><a href="">Home</a></li>
+             <li class="navbar-li"><a href="">About</a></li>
+              <li class="navbar-li"><a href="">Contact</a></li>
         </ul>
         </div>
+        <button class="btn">Get Stared</button>
     </nav>
 </body>
 </html>

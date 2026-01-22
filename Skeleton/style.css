@@ -8,10 +8,12 @@ header{
     display: flex;
     justify-content: space-around;
     background-color: aqua;
+    margin-right: auto;
 }
 .navbar{
    height: 60px;
    display: inline-block;
+   justify-content: flex-end;
 }
 .nav-links{
     list-style-type: none;
@@ -20,9 +22,10 @@ header{
 }
 .nav-links li{
     display: inline-block;
+    gap: 30px;
 
 }
 .nav-links li a{
-   
+   gap: 30px;
    text-decoration: none;
 }
