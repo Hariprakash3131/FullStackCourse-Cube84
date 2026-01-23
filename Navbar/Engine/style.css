@@ -38,10 +38,10 @@
     border: none;
     padding: 15px;
     color:#58595e;
+     width: 70px;
+    height: 40px;
 }
 .btn-login:hover{
-    width: 70px;
-    height: 40px;
     background-color: #2a2c33;
     color: white;
     border-radius: 32px;
