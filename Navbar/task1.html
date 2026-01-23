@@ -16,6 +16,7 @@
   font-weight: 500;
   font-style: normal;
   box-sizing: border-box;
+  background-color: #fbfcfd;
 
  
             
@@ -23,7 +24,7 @@
          .navbar{
             width: 100%;
             height: 70px;
-            background-color: rgb(255, 255, 255);
+          
             align-items: center;
             display: flex;
             justify-content: flex-end;
@@ -74,35 +75,164 @@
          .btn:hover{
             background-color: #765fe9;
          }
-        .hero {
-  height: 300px;
-  display: flex;
-  justify-content: center; 
-  align-items: center;     
-}
+         .hero{
+          margin-top: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    
+         }
+         .hero-div{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          gap: 30px;
+         }
+         .text-p{
+          width: 180px;
+          color: #6246f0;
+          background-color: #efecfd;
+          align-items: center;
+          padding: 6px;
+          border-radius: 16px;
+         }
+         .text-h1{
+          color: #0f172b;
+          font-size:80px;
+         }
+         .span-text{
+          color: #8b54ff;
+         }
+         .workflow-text{
+          width:800px;
+          font-weight: 350;
+          font-size: 25px;
+          color: #778499;
+         }
+         .buttons{
+          
+         }
+         .btn-start{
+          color:#ededfb;
+          background-color:#5f42f0 ;
+          width: 160px;
+          height: 50px;
+          border: none;
+          border-radius: 20px;
+          gap: 50px;
+         }
+         .btn-demo{
+          color: #1b2334;
+          background-color: #fdfdff;
+           width: 160px;
+          height: 50px;
+          border: 1px solid black;
+          border-radius: 20px;
+         }
+         .why-choose{
+          margin-top: 120px;
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+         }
+         .why-choose h1{
+          font-size: 30px;
+          font-weight: 300px;
+         }
+         .why-choose p{
+          font-weight: 400;
+          font-size: 20px;
+          margin-top: 20px;
+          color: #8793a5;
+          width:700px;
+         }
+         .cards{
+          margin-top: 50px;
+          display: flex;
+          justify-content: space-around;
+          height: 250px;
+         }
+         .cards h2{
+          color:#212939;
+          margin-top: 20px;
+         }
+         .cards p{
+          color: #6b7a90;
+          margin-top: 30px;
+         
+         }
+         .card-1{
+          width: 400px;
+          height: 200px;
+          background-color:#ffffff;
+          border-radius: 8px;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          padding: 25px;
 
-.hero-div {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  text-align: center;
-  gap: 16px;
-}
+         }
+        .card-2{
+          width: 400px;
+          height: 200px;
+          background-color:#ffffff;
+          border-radius: 8px;
+          padding: 25px;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
-.text-p {
-  color: #5f42f0;
-  background-color: #efecfd;
-  width: 180px;
-  padding: 6px;
-  border-radius: 16px;
-  font-size: 14px;
-}
+         }
+         .card-3{
+          width: 400px;
+          height: 200px;
+          background-color:#ffffff;
+          border-radius: 8px;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          padding: 25px;
+         }
+         footer{
+          height: 180px;
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+         }
 
-.text-h1 {
-  font-size: 36px;
-  color: #11192b;
-}
-
+         .footer-top{
+          display: flex;
+          text-align: center;
+          align-items: center;
+         }
+         .footer-logo{
+          width: 70px;
+          height:40px;
+         }
+         .footer-span{
+          font-size:20px;
+          font-weight: 600;
+         }
+         .footer-content p{
+           margin-top: 15px;
+           color: #828ea2;
+         }
+         .footer-links{
+          margin-top: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+         }
+         .footer-links ul{
+          display: flex;
+          list-style-type: none;
+          text-decoration: none;
+          gap: 30px;
+         }
+         .footer-links li{
+          color: #828ea2;
+         }
+       
     </style>
 </head>
 <body>
@@ -122,10 +252,60 @@
   <div class="hero-div">
     <p class="text-p">v2.0 is now available</p>
     <h1 class="text-h1">
-      Build faster with intelligent tools
+      Build faster with
+      <br><span class="span-text"> intelligent tools</span>
     </h1>
+    <p class="workflow-text">Streamline your workflow with our all-in-one platform. Designed for teams who want to ship products, not manage process.</p>
+    <div class="buttons">
+       <button class="btn-start">Start Building</button>
+    <button class="btn-demo">Watch Demo</button>
+    </div>
   </div>
+  
 </section>
+
+<div class="why-choose">
+  <h1>
+    Why choose Streamline?
+  </h1>
+  <p>We provide the infrastructure you need to scale. From prototype to IPO, we've got you covered.</p>
+</div>
+ <div class="cards">
+    <div class="card-1">
+    <h2>Lightning Fast</h2>
+    <p>Optimized for speed. Our platform ensures your data is always available in milliseconds.</p>
+
+  </div>
+  <div class="card-2">
+    <h2>Bank-Grade Security</h2>
+    <p>Enterprise-ready security out of the box. We handle compliance so you don't have to.</p>
+
+  </div>
+  <div class="card-3">
+    <h2>Real-time Analytics</h2>
+    <p>Make data-driven decisions with our powerful analytics dashboard built for growth.</p>
+
+  </div>
+  </div>
+
+  <hr>
+  <footer >
+   <div class="footer-top">
+    <img src="./gmdh-streamline.png" class="footer-logo"  alt="">
+    <span class="footer-span">Streamline</span>
+    </div>
+    
+    <div class="footer-content">
+      <p>© 2026 Streamline Inc. All rights reserved.</p>
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li>Privacy</li>
+         <li>Terms</li>
+          <li>Twitter</li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 </html>
