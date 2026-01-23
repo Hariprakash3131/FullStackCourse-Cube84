@@ -4,6 +4,13 @@
 }
 h1{
     background-color: chocolate;
+    width: 300px;
+    margin: 5px;
+    
+}
+div{
     display: flex;
-    justify-content:;
+    justify-content: space-around;
+    flex-basis: 20%;
+    flex-wrap: wrap;
 }
