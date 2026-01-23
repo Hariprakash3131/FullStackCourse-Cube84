@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}  
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.nav-span{
+    color: #2a2c33; 
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #58595e;
+}
+.btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: none;
+    color:#58595e;
+}
+.btn-login:hover{
+    width: 70px;
+    height: 40px;
+    background-color: #10121a;
+    color: white;
+    border-radius: 32px;
+}
