@@ -28,18 +28,37 @@
     text-decoration: none;
     color: #58595e;
 }
+.navbar li a:hover{
+   color:  #2a2c33;
+}
 .btn-login{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     border: none;
+    padding: 15px;
     color:#58595e;
 }
 .btn-login:hover{
     width: 70px;
     height: 40px;
-    background-color: #10121a;
+    background-color: #2a2c33;
     color: white;
     border-radius: 32px;
+}
+
+.btn-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color:#10121a;
+    background-color: #ffb200;
+    width: 140px;
+    height: 40px;
+    border-radius: 32px;
+}
+.nav-btn{
+    display: flex;
+    gap: 20px;
 }
