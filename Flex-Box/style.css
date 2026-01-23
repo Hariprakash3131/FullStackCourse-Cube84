@@ -1,24 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-/* .title{
-    text-align: center;
-}
-.sub-title{
-    text-align: center;
-} */
-.card{
-    padding: 30px;
-    text-align: center;
-}
-.card{
+h1{
+    background-color: chocolate;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-     
-}
-.card div{
-     
+    justify-content:;
 }
