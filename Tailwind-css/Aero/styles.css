@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+.bg-orange {
+ background-color: #ea580c;
+}
+.bg{
+    background-color: #ff5900;
+}
+.img-bg{
+    background-color: #fef5f2;
+}
+.hero-h1{
+    color: #09090b;
+}
+.hero-p{
+    color: #44444b;
+}
+.nav-text{
+    color: #27272a;
+}
+.nav-text:hover{
+    color: #eb611a;
+}
